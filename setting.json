@@ -1,6 +1,7 @@
 {	
 	"repositoryPath": "C:\\workspace\\solutionRepository",
 	"coverageToolPath":"C:\\CodeCoverageGenerator",
+	"solutionName": "<solutionName>.sln",
 	"purgeDays": 3,
 	"modules": 
 	[

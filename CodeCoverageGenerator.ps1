@@ -24,7 +24,8 @@ write-host "Pull Latest Code" -ForegroundColor Green
 
 write-host "Build Solution" -ForegroundColor Green
 
- msbuild $gitPath\<SolutionName>.sln
+$solutionName = $setting.solutionName
+msbuild $gitPath\$solutionName
 
 $purgeDays = $setting.purgeDays
 write-host "Purging reports older than $purgeDays day(s)"  -ForegroundColor Green
