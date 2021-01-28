@@ -1,0 +1,15 @@
+{	
+	"repositoryPath": "C:\\workspace\\solutionRepository",
+	"coverageToolPath":"C:\\CodeCoverageGenerator",
+	"purgeDays": 3,
+	"modules": 
+	[
+		{
+			"moduleName": "<Module Name>",
+			"testProjectPath": "<csproj project path under repositoryPath>",
+			"testFilter": "<xunit traits or mstest categories> ",
+			"settingsFileName": "common.runsettings",
+			"hasToRun":true
+		}
+	]
+}
